@@ -39,7 +39,7 @@ int main( void )
 	
 	fp = fopen( "dict.txt", "r" );
 	if (fp == NULL) {
-        	printf("Error: The file 'dict.txt' may not exist./n");
+        	printf("Error: The file 'dict.txt' may not exist.\n");
         	exit(1);
     	}
 	
