@@ -36,7 +36,12 @@ int main( void )
 	int all_alphabet_replaced( char* );
 	void fill( char* );
 	
+	
 	fp = fopen( "dict.txt", "r" );
+	if (fp == NULL) {
+        	printf("Error: The file 'dict.txt' may not exist./n");
+        	exit(1);
+    	}
 	
 	word_found = FALSE;
 	
